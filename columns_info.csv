@@ -1,0 +1,97 @@
+,Description,Unit,Type,Min,Max
+plant_efficiency,Plant efficiency,kW/Ton,float,0,-
+building_load,Building cooling load,Ton,float,0,-
+db_temperature,Outdoor dry bulb temperature,degreeF,float,-,-
+rh,Outdoor relative humidity,%,float,-,-
+chw_flow,Total chilled water flow rate at main pipe,GPM,float,-,-
+cdw_flow,Total condenser water flow rate at main pipe,GPM,float,-,-
+ch1_chr_temperature,Entering chilled water temperature at chiller 1,degreeF,float,-,-
+ch2_chr_temperature,Entering chilled water temperature at chiller 2,degreeF,float,-,-
+ch3_chr_temperature,Entering chilled water temperature at chiller 3,degreeF,float,-,-
+ch4_chr_temperature,Entering chilled water temperature at chiller 4,degreeF,float,-,-
+ch5_chr_temperature,Entering chilled water temperature at chiller 5,degreeF,float,-,-
+ch6_chr_temperature,Entering chilled water temperature at chiller 6,degreeF,float,-,-
+ch1_chs_temperature,Leaving chilled water temperature at chiller 1,degreeF,float,-,-
+ch2_chs_temperature,Leaving chilled water temperature at chiller 2,degreeF,float,-,-
+ch3_chs_temperature,Leaving chilled water temperature at chiller 3,degreeF,float,-,-
+ch4_chs_temperature,Leaving chilled water temperature at chiller 4,degreeF,float,-,-
+ch5_chs_temperature,Leaving chilled water temperature at chiller 5,degreeF,float,-,-
+ch6_chs_temperature,Leaving chilled water temperature at chiller 6,degreeF,float,-,-
+ch1_cds_temperature,Entering condenser water temperature at chiller 1,degreeF,float,-,-
+ch2_cds_temperature,Entering condenser water temperature at chiller 2,degreeF,float,-,-
+ch3_cds_temperature,Entering condenser water temperature at chiller 3,degreeF,float,-,-
+ch4_cds_temperature,Entering condenser water temperature at chiller 4,degreeF,float,-,-
+ch5_cds_temperature,Entering condenser water temperature at chiller 5,degreeF,float,-,-
+ch6_cds_temperature,Entering condenser water temperature at chiller 6,degreeF,float,-,-
+ch1_cdr_temperature,Leaving condenser water temperature at chiller 1,degreeF,float,-,-
+ch2_cdr_temperature,Leaving condenser water temperature at chiller 2,degreeF,float,-,-
+ch3_cdr_temperature,Leaving condenser water temperature at chiller 3,degreeF,float,-,-
+ch4_cdr_temperature,Leaving condenser water temperature at chiller 4,degreeF,float,-,-
+ch5_cdr_temperature,Leaving condenser water temperature at chiller 5,degreeF,float,-,-
+ch6_cdr_temperature,Leaving condenser water temperature at chiller 6,degreeF,float,-,-
+ch1_setpoint,Chilled water setpoint of chiller 1,degreeF,float,-,-
+ch2_setpoint,Chilled water setpoint of chiller 2,degreeF,float,-,-
+ch3_setpoint,Chilled water setpoint of chiller 3,degreeF,float,-,-
+ch4_setpoint,Chilled water setpoint of chiller 4,degreeF,float,-,-
+ch5_setpoint,Chilled water setpoint of chiller 5,degreeF,float,-,-
+ch6_setpoint,Chilled water setpoint of chiller 6,degreeF,float,-,-
+ch1_status,Status of chiller 1,-,binary,0,1
+ch2_status,Status of chiller 2,-,binary,0,1
+ch3_status,Status of chiller 3,-,binary,0,1
+ch4_status,Status of chiller 4,-,binary,0,1
+ch5_status,Status of chiller 5,-,binary,0,1
+ch6_status,Status of chiller 6,-,binary,0,1
+ch1_power,Power consumption of chiller 1,kW,float,0,-
+ch2_power,Power consumption of chiller 2,kW,float,0,-
+ch3_power,Power consumption of chiller 3,kW,float,0,-
+ch4_power,Power consumption of chiller 4,kW,float,0,-
+ch5_power,Power consumption of chiller 5,kW,float,0,-
+ch6_power,Power consumption of chiller 6,kW,float,0,-
+chp1_speed,Speed of chilled water pump 1,%,float,0,100
+chp2_speed,Speed of chilled water pump 2,%,float,0,100
+chp3_speed,Speed of chilled water pump 3,%,float,0,100
+chp4_speed,Speed of chilled water pump 4,%,float,0,100
+chp5_speed,Speed of chilled water pump 5,%,float,0,100
+chp6_speed,Speed of chilled water pump 6,%,float,0,100
+chp1_power,Power consumption of chilled water pump 1,kW,float,0,-
+chp2_power,Power consumption of chilled water pump 2,kW,float,0,-
+chp3_power,Power consumption of chilled water pump 3,kW,float,0,-
+chp4_power,Power consumption of chilled water pump 4,kW,float,0,-
+chp5_power,Power consumption of chilled water pump 5,kW,float,0,-
+chp6_power,Power consumption of chilled water pump 6,kW,float,0,-
+cdp1_speed,Speed of condenser water pump 1,%,float,0,100
+cdp2_speed,Speed of condenser water pump 2,%,float,0,100
+cdp3_speed,Speed of condenser water pump 3,%,float,0,100
+cdp4_speed,Speed of condenser water pump 4,%,float,0,100
+cdp5_speed,Speed of condenser water pump 5,%,float,0,100
+cdp6_speed,Speed of condenser water pump 6,%,float,0,100
+cdp1_power,Power consumption of condenser water pump 1,kW,float,0,-
+cdp2_power,Power consumption of condenser water pump 2,kW,float,0,-
+cdp3_power,Power consumption of condenser water pump 3,kW,float,0,-
+cdp4_power,Power consumption of condenser water pump 4,kW,float,0,-
+cdp5_power,Power consumption of condenser water pump 5,kW,float,0,-
+cdp6_power,Power consumption of condenser water pump 6,kW,float,0,-
+ct1_speed,Speed of cooling tower 1,%,float,0,100
+ct2_speed,Speed of cooling tower 2,%,float,0,100
+ct3_speed,Speed of cooling tower 3,%,float,0,100
+ct4_speed,Speed of cooling tower 4,%,float,0,100
+ct5_speed,Speed of cooling tower 5,%,float,0,100
+ct6_speed,Speed of cooling tower 6,%,float,0,100
+ct1_power,Power consumption of cooling tower 1,kW,float,0,-
+ct2_power,Power consumption of cooling tower 2,kW,float,0,-
+ct3_power,Power consumption of cooling tower 3,kW,float,0,-
+ct4_power,Power consumption of cooling tower 4,kW,float,0,-
+ct5_power,Power consumption of cooling tower 5,kW,float,0,-
+ct6_power,Power consumption of cooling tower 6,kW,float,0,-
+ch1_chw_flow,Chilled water flow rate of chiller 1,GPM,float,0,-
+ch2_chw_flow,Chilled water flow rate of chiller 2,GPM,float,0,-
+ch3_chw_flow,Chilled water flow rate of chiller 3,GPM,float,0,-
+ch4_chw_flow,Chilled water flow rate of chiller 4,GPM,float,0,-
+ch5_chw_flow,Chilled water flow rate of chiller 5,GPM,float,0,-
+ch6_chw_flow,Chilled water flow rate of chiller 6,GPM,float,0,-
+ch1_cdw_flow,Condenser water flow rate of chiller 1,GPM,float,0,-
+ch2_cdw_flow,Condenser water flow rate of chiller 2,GPM,float,0,-
+ch3_cdw_flow,Condenser water flow rate of chiller 3,GPM,float,0,-
+ch4_cdw_flow,Condenser water flow rate of chiller 4,GPM,float,0,-
+ch5_cdw_flow,Condenser water flow rate of chiller 5,GPM,float,0,-
+ch6_cdw_flow,Condenser water flow rate of chiller 6,GPM,float,0,-
